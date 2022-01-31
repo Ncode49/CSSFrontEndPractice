@@ -104,12 +104,25 @@ li + li {
 
 .two-columns {
   display: flex;
+  text-align: center;
 }
 .two-columns__crowdfunding {
+  padding: 2rem;
   background: var(--yellow);
   width: 50%;
 }
 .two-columns__pressandsell {
+  padding: 2rem;
   background: var(--grey);
   width: 50%;
+}
+
+.two-columns__img {
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+/* not the ideal solution */
+.margin-bottom {
+  margin-bottom: 4.7rem;
 }
