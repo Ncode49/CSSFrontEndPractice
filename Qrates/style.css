@@ -75,9 +75,41 @@ li + li {
 
 .header__record-button {
   display: inline-block;
-  background: black;
-  color: white;
+  background: var(--black);
+  color: var(--white);
   border-radius: 100px;
   padding: 1rem 2rem;
   margin-left: 15px;
+}
+
+/* Reusable class components */
+
+.white-black-label {
+  border: solid 0.15rem;
+  display: inline-block;
+  padding: 0.6em;
+  text-transform: uppercase;
+  background: var(--white);
+}
+
+.black-white-button {
+  color: var(--white);
+  background: var(--black);
+  text-transform: uppercase;
+  padding: 1em 5em;
+  border-radius: 100px;
+}
+
+/* section crowdfunction and sells */
+
+.two-columns {
+  display: flex;
+}
+.two-columns__crowdfunding {
+  background: var(--yellow);
+  width: 50%;
+}
+.two-columns__pressandsell {
+  background: var(--grey);
+  width: 50%;
 }
