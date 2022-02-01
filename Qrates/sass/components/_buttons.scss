@@ -1,0 +1,15 @@
+.white-black-label {
+  border: solid 0.15rem;
+  display: inline-block;
+  padding: 0.6em;
+  text-transform: uppercase;
+  background: $color-white;
+}
+
+.btn-bw {
+  color: $color-white;
+  background: $color-black;
+  text-transform: uppercase;
+  padding: 1em 5em;
+  border-radius: 100px;
+}

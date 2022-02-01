@@ -5,15 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Qrates</title>
-    <link rel="icon" type="image/x-icon" href="/assets/qrates-logo.svg" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./public/assets/packs/logos/qrates-logo-6b1bd403.svg"
+    />
+    <link rel="stylesheet" href="./public/css/style.css" />
   </head>
   <body>
     <header class="container">
       <div class="header__logo">
         <img
           class="logo"
-          src="assets/packs/logos/qrates-logo-6b1bd403.svg"
+          src="./public/assets/packs/logos/qrates-logo-6b1bd403.svg"
           alt="qrates logo"
         />
       </div>
@@ -31,9 +35,8 @@
         <a class="header__record-button" href="#">make a record</a>
       </div>
     </header>
-
-    <div class="two-columns">
-      <div class="two-columns__crowdfunding">
+    <div class="two-cols">
+      <section class="two-cols__left-section">
         <div class="white-black-label">no risk, no waste</div>
         <h2>Crowsfunding</h2>
         <p>
@@ -42,15 +45,15 @@
         </p>
         <div>
           <img
-            class="two-columns__img"
-            src="assets/common/sticker/crowdfunding-e47bb83e87eafcc717be7f350fa2950b39e9ae8fce0c3f015d888014e72c3915.png"
+            class="two-cols__img"
+            src="./public/assets/common/sticker/crowdfunding-e47bb83e87eafcc717be7f350fa2950b39e9ae8fce0c3f015d888014e72c3915.png"
             alt="Crowsfunding"
           />
         </div>
 
-        <a class="black-white-button">learn more</a>
-      </div>
-      <div class="two-columns__pressandsell">
+        <a class="btn-bw " href="#" >learn more</a>
+      </section>
+      <section class="two-cols__right-section">
         <div class="white-black-label">get into it</div>
         <h2>Press & Sell</h2>
         <p class="margin-bottom">
@@ -59,14 +62,20 @@
         </p>
         <div>
           <img
-            class="two-columns__img"
-            src="assets/common/sticker/press_sell-402fcca35bd2ff6cb6d4fc1f42bbde1f3a3e5fdc996cb9584816109aec366072.png"
+            class="two-cols__img"
+            src="./public/assets/common/sticker/press_sell-402fcca35bd2ff6cb6d4fc1f42bbde1f3a3e5fdc996cb9584816109aec366072.png"
             alt="qrates logo"
           />
         </div>
-
-        <a class="black-white-button">learn more</a>
+        <a class="btn-bw" href="#">learn more</a>
       </div>
-    </div>
+    </section>
+    <section class="bottom-layout bottom-layout__pd">
+      <div>
+        Just after straight up vinyl pressing? We do that too. Records are
+        shipped in bulk to wherever you need.
+      </div>
+      <a class="bottom-layout__a" href="#">start a press only project</a>
+    </section>
   </body>
 </html>

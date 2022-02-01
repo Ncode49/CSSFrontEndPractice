@@ -1,0 +1,140 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Black-109f4f322c9eeaab99bde40068ceb72d6b41153759fac746be9c93ae3b4cd3a9.woff2");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Bold-bac616147a9ef9f7274551718c7e1e54f47c5aebec4b41ae2a16f5c85d429e40.woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Medium-c0445e72fcf1fa067318ff69af98716ba8c7f8ad1cd87e7fef88735f862cb2ba.woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/pictogram-20117bbd6cdba3a36a07bf41418a41b36bdc634da14562b49605994a0a0bc035.woff");
+  font-weight: 300;
+}
+body {
+  font-family: "QratesBasis";
+}
+
+.white-black-label {
+  border: solid 0.15rem;
+  display: inline-block;
+  padding: 0.6em;
+  text-transform: uppercase;
+  background: #fff;
+}
+
+.btn-bw {
+  color: #fff;
+  background: #000;
+  text-transform: uppercase;
+  padding: 1em 5em;
+  border-radius: 100px;
+}
+
+.container {
+  display: flex;
+}
+
+header {
+  margin: 1em;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li,
+a {
+  color: black;
+  text-decoration: none;
+}
+
+li + li {
+  margin-left: 15px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.header__logo {
+  width: 30px;
+}
+
+.header__record-button {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border-radius: 100px;
+  padding: 1rem 2rem;
+  margin-left: 15px;
+}
+
+/* section crowdfunction and sells */
+.two-cols {
+  display: flex;
+  text-align: center;
+}
+
+.two-cols__left-section {
+  padding: 2rem;
+  background: #fff804;
+  width: 50%;
+  border: solid;
+  border-right: 1.5px solid;
+}
+
+.two-cols__right-section {
+  padding: 2rem;
+  background: #81836c;
+  width: 50%;
+  border: solid;
+  border-left: 1.5px solid;
+}
+
+/* not the ideal solution */
+.margin-bottom {
+  margin-bottom: 4.7rem;
+}
+
+.two-cols__img {
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.bottom-layout {
+  background: #000;
+  color: #fff;
+  display: flex;
+  padding: 2em 5em;
+  gap: 4em;
+}
+
+.bottom-layout__a {
+  text-decoration: underline;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

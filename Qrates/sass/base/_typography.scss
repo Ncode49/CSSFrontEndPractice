@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Black-109f4f322c9eeaab99bde40068ceb72d6b41153759fac746be9c93ae3b4cd3a9.woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Bold-bac616147a9ef9f7274551718c7e1e54f47c5aebec4b41ae2a16f5c85d429e40.woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/QratesBasis-Medium-c0445e72fcf1fa067318ff69af98716ba8c7f8ad1cd87e7fef88735f862cb2ba.woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  src: url("../../public/assets/font/pictogram-20117bbd6cdba3a36a07bf41418a41b36bdc634da14562b49605994a0a0bc035.woff");
+  font-weight: 300;
+}
+
+body {
+  font-family: "QratesBasis";
+}

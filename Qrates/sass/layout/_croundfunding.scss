@@ -1,0 +1,44 @@
+/* section crowdfunction and sells */
+
+.two-cols {
+  display: flex;
+  text-align: center;
+}
+.two-cols__left-section {
+  padding: 2rem;
+  background: $color-yellow;
+  width: 50%;
+  border: solid;
+  border-right: 1.5px solid;
+}
+.two-cols__right-section {
+  padding: 2rem;
+  background: $color-grey;
+  width: 50%;
+  border: solid;
+  border-left: 1.5px solid;
+}
+
+/* not the ideal solution */
+.margin-bottom {
+  margin-bottom: 4.7rem;
+}
+
+.two-cols__img {
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.bottom-layout {
+  background: $color-black;
+  color: $color-white;
+  display: flex;
+  padding: 2em 5em;
+  gap: 4em;
+}
+
+.bottom-layout__a {
+  text-decoration: underline;
+  color: $color-white;
+  text-transform: uppercase;
+}
