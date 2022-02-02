@@ -5,17 +5,15 @@
   text-align: center;
   flex-wrap: wrap;
 }
-.two-cols__left-section {
+.section-yellow {
   padding: 2rem;
   background: $color-yellow;
-  width: 50%;
   border: solid;
   border-right: 1.5px solid;
 }
-.two-cols__right-section {
+.section-grey {
   padding: 2rem;
   background: $color-grey;
-  width: 50%;
   border: solid;
   border-left: 1.5px solid;
 }

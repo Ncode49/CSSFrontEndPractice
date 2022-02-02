@@ -4,6 +4,7 @@
   padding: 0.6em;
   text-transform: uppercase;
   background: $color-white;
+  width: max-content;
 }
 
 .btn-bw {
@@ -13,12 +14,14 @@
   padding: 1em 5em;
   border-radius: 100px;
   display: inline-block;
+  width: max-content;
 }
 
 .btn-underscore {
   text-decoration: underline;
   display: inline-block;
   margin-bottom: 1em;
+  width: max-content;
 }
 
 .btn-wb {
@@ -29,4 +32,5 @@
   border-radius: 100px;
   display: inline-block;
   border: 0.15em solid;
+  width: max-content;
 }
