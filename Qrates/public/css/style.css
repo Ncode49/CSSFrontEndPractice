@@ -78,6 +78,18 @@ body {
   width: max-content;
 }
 
+.btn-circle {
+  background: #fff804;
+  border: solid 2px;
+  border-radius: 50%;
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.btn-circle + .btn-circle {
+  margin-left: 0.3rem;
+}
+
 .container {
   display: flex;
 }
@@ -87,6 +99,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.col {
+  width: 50%;
 }
 
 .col-half {
@@ -189,6 +205,7 @@ li + li {
 .intro__right {
   width: 60%;
   margin-top: 7rem;
+  border: solid 2px;
 }
 
 .row__intro {
@@ -199,7 +216,8 @@ li + li {
   width: 60%;
   margin-top: -10rem;
   margin-bottom: 5rem;
-  font-size: 3rem;
+  font-size: 2rem;
+  border: solid 2px;
 }
 
 .intro2__right {
@@ -252,6 +270,30 @@ li + li {
   text-decoration: underline;
   color: #fff;
   text-transform: uppercase;
+}
+
+.artist__left {
+  background: #fff804;
+  padding: 2rem;
+  border: solid 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.artist__p {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.artist__img {
+  border-top: solid 2px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+}
+
+.artist__btn {
+  font-size: 2rem;
 }
 
 .two-cols__left-record {

@@ -1,0 +1,22 @@
+.artist__left {
+  background: $color-yellow;
+  padding: 2rem;
+  border: solid 2px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.artist__p {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+.artist__img {
+  border-top: solid 2px;
+  border-right: solid 2px;
+  border-bottom: solid 2px;
+}
+
+.artist__btn {
+  font-size: 2rem;
+}
