@@ -7,6 +7,16 @@
   width: max-content;
 }
 
+.label-black-white {
+  border: solid $color-white 0.15rem;
+  display: inline-block;
+  padding: 0.6em;
+  text-transform: uppercase;
+  background: $color-black;
+  color: $color-white;
+  width: max-content;
+}
+
 .btn-bw {
   color: $color-white;
   background: $color-black;
@@ -45,4 +55,13 @@
 
 .btn-circle + .btn-circle {
   margin-left: 0.3rem;
+}
+
+.btn-y {
+  text-transform: uppercase;
+  background: $color-yellow;
+  padding: 1.5em 6em;
+  border-radius: 100px;
+  margin: 8rem 0;
+  display: inline-block;
 }

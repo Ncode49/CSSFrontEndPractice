@@ -7,6 +7,10 @@
   transform: rotate(10deg);
 }
 
+.w-50 {
+  width: 50%;
+}
+
 *,
 *::after,
 *::before {
@@ -50,6 +54,16 @@ body {
   width: max-content;
 }
 
+.label-black-white {
+  border: solid #fff 0.15rem;
+  display: inline-block;
+  padding: 0.6em;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+  width: max-content;
+}
+
 .btn-bw {
   color: #fff;
   background: #000;
@@ -88,6 +102,15 @@ body {
 
 .btn-circle + .btn-circle {
   margin-left: 0.3rem;
+}
+
+.btn-y {
+  text-transform: uppercase;
+  background: #fff804;
+  padding: 1.5em 6em;
+  border-radius: 100px;
+  margin: 8rem 0;
+  display: inline-block;
 }
 
 .container {
@@ -398,6 +421,13 @@ li + li {
   padding: 3rem;
   font-size: 1.3em;
   text-transform: uppercase;
+}
+
+.studio {
+  background: #000;
+  color: #fff;
+  padding-top: 8rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
