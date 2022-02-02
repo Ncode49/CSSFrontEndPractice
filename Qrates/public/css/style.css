@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.rotated-n10 {
+  transform: rotate(-10deg);
+}
+
+.rotated-p10 {
+  transform: rotate(10deg);
+}
+
 *,
 *::after,
 *::before {
@@ -173,6 +181,33 @@ li + li {
   margin-left: 15px;
 }
 
+.intro__left {
+  width: 40%;
+  padding: 2rem;
+}
+
+.intro__right {
+  width: 60%;
+  margin-top: 7rem;
+}
+
+.row__intro {
+  align-items: center;
+}
+
+.intro2__left {
+  width: 60%;
+  margin-top: -10rem;
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+
+.intro2__right {
+  margin-left: 10%;
+  width: 20%;
+  height: auto;
+}
+
 /* section crowdfunction and sells */
 .two-cols {
   display: flex;
@@ -232,10 +267,6 @@ li + li {
 
 .two-cols__img-container {
   margin: 3rem;
-}
-
-.rotated {
-  transform: rotate(-10deg);
 }
 
 .two-cols__right-tabs {
