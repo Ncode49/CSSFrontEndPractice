@@ -285,4 +285,46 @@ li + li {
   padding: 5rem;
 }
 
+.insta__photos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  padding: 0;
+  position: relative;
+}
+
+.insta__img {
+  width: 25%;
+  display: block;
+  float: left;
+  flex: 0 0 auto;
+  border: 2px solid;
+}
+
+.insta__eyes {
+  position: absolute;
+  right: 5%;
+  top: -10%;
+  max-width: 15%;
+  z-index: 1;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner a {
+  text-decoration: underline;
+}
+
+.banner li {
+  display: inline-block;
+  padding: 3rem;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=style.css.map */
