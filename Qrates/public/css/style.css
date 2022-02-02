@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::after,
 *::before {
@@ -46,10 +47,64 @@ body {
   text-transform: uppercase;
   padding: 1em 5em;
   border-radius: 100px;
+  display: inline-block;
+}
+
+.btn-underscore {
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+.btn-wb {
+  color: #000;
+  background: #fff;
+  text-transform: uppercase;
+  padding: 0.85em 5em;
+  border-radius: 100px;
+  display: inline-block;
+  border: 0.15em solid;
 }
 
 .container {
   display: flex;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border-top: 2px solid;
+  outline: none;
+  transition: 0.4s;
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: "➕";
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "➖";
+  /* Unicode character for "minus" sign (-) */
 }
 
 header {
@@ -95,6 +150,7 @@ li + li {
 .two-cols {
   display: flex;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .two-cols__left-section {
@@ -129,12 +185,53 @@ li + li {
   display: flex;
   padding: 2em 5em;
   gap: 4em;
+  flex-wrap: wrap;
 }
 
 .bottom-layout__a {
   text-decoration: underline;
   color: #fff;
   text-transform: uppercase;
+}
+
+.two-cols__left-record {
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.two-cols__img-record {
+  width: 80%;
+  border: solid;
+}
+
+.two-cols__img-container {
+  margin: 3rem;
+}
+
+.rotated {
+  transform: rotate(-10deg);
+}
+
+.two-cols__right-tabs {
+  width: 50%;
+  margin: 4rem;
+  border: 2px solid;
+}
+
+.right-tabs__black {
+  background: #000;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.left-record__title {
+  color: #fff;
+  text-shadow: #000 1.2px 1.2px, #000 -1.2px 1.2px, #000 -1.2px -1.2px, #000 1.2px -1.2px;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */

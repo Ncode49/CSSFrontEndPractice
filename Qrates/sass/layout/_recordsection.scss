@@ -1,0 +1,37 @@
+.two-cols__left-record {
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+}
+.two-cols__img-record {
+  width: 80%;
+  border: solid;
+}
+.two-cols__img-container {
+  margin: 3rem;
+}
+.rotated {
+  transform: rotate(-10deg);
+}
+
+.two-cols__right-tabs {
+  width: 50%;
+  margin: 4rem;
+  border: 2px solid;
+}
+
+.right-tabs__black {
+  background: $color-black;
+  color: $color-white;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.left-record__title {
+  color: $color-white;
+  text-shadow: $color-black 1.2px 1.2px, $color-black -1.2px 1.2px,
+    $color-black -1.2px -1.2px, $color-black 1.2px -1.2px;
+  font-size: 2rem;
+}
