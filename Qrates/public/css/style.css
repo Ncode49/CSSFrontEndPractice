@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .rotated-n10 {
-  transform: rotate(-10deg);
+  transform: rotate(-5deg);
 }
 
 .rotated-p10 {
-  transform: rotate(10deg);
+  transform: rotate(5deg);
 }
 
 .w-50 {
@@ -84,6 +84,7 @@ body {
 }
 body {
   font-family: "QratesBasis";
+  font-size: 18px;
 }
 
 .white-black-label {
@@ -169,9 +170,8 @@ body {
   width: 50%;
 }
 
-.col-half {
+.col-between {
   text-align: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -179,7 +179,6 @@ body {
 
 .col-center {
   align-items: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -189,12 +188,20 @@ body {
 .col-around {
   align-items: center;
   text-align: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
+@media (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+
+  .col {
+    width: 100%;
+  }
+}
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #fff;
@@ -272,22 +279,51 @@ ul {
   text-decoration: none;
 }
 
+.icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  nav,
+.header__right {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+  }
+}
 .row__intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+
+.row__intro1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   align-items: center;
 }
 
 .intro__left {
-  width: 40%;
+  width: 30%;
   padding: 2rem;
 }
 
 .intro__right {
-  width: 60%;
+  width: 70%;
   margin-top: 7rem;
 }
 
 .intro2__left {
-  width: 60%;
+  width: 50%;
   margin-top: -5rem;
   margin-bottom: 5rem;
   font-size: 2rem;
@@ -302,10 +338,12 @@ ul {
 
 .intro__bottom {
   text-align: center;
-  padding: 4rem 0;
+  padding: 6rem 0;
   border-top: 2px solid;
   margin: 0;
   margin-top: -5rem;
+  justify-content: space-between;
+  font-size: 19px;
 }
 
 .intro__topcurrent {
@@ -321,6 +359,19 @@ ul {
   position: relative;
 }
 
+@media (max-width: 1000px) {
+  .intro__left {
+    width: 100%;
+  }
+
+  .row__intro1 {
+    flex-direction: row-reverse;
+  }
+
+  .intro__right {
+    margin-top: 2rem;
+  }
+}
 /* section crowdfunction and sells */
 .two-cols {
   display: flex;
@@ -349,11 +400,11 @@ ul {
 }
 
 .bottom-layout {
+  justify-content: space-around;
   background: #000;
   color: #fff;
   display: flex;
   padding: 2em 5em;
-  gap: 4em;
   flex-wrap: wrap;
 }
 
@@ -390,14 +441,13 @@ ul {
 }
 
 .two-cols__img-container {
-  margin: 2rem 1rem 2rem 0rem;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
 .two-cols__right-tabs {
-  width: 50%;
-  margin: 4rem 0;
   border: 2px solid;
-  margin: 2rem;
+  align-items: center;
+  margin: 2rem auto;
 }
 
 .right-tabs__black {
@@ -467,6 +517,17 @@ ul {
   z-index: 1;
 }
 
+@media (max-width: 1000px) {
+  .insta__img {
+    width: 50%;
+  }
+
+  .insta__eyes {
+    top: -3%;
+    right: 15%;
+    position: absolute;
+  }
+}
 .banner {
   display: flex;
   justify-content: space-between;

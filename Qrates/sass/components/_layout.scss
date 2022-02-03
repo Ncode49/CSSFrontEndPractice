@@ -12,9 +12,8 @@
 .col {
   width: 50%;
 }
-.col-half {
+.col-between {
   text-align: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -22,7 +21,6 @@
 
 .col-center {
   align-items: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,8 +30,16 @@
 .col-around {
   align-items: center;
   text-align: center;
-  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+  .row {
+    display: block;
+  }
+  .col {
+    width: 100%;
+  }
 }

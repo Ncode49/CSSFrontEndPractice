@@ -25,11 +25,11 @@
 }
 
 .bottom-layout {
+  justify-content: space-around;
   background: $color-black;
   color: $color-white;
   display: flex;
   padding: 2em 5em;
-  gap: 4em;
   flex-wrap: wrap;
 }
 

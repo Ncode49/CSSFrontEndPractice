@@ -23,3 +23,15 @@
   max-width: 15%;
   z-index: 1;
 }
+
+@media (max-width: 1000px) {
+  .insta__img {
+    width: 50%;
+  }
+
+  .insta__eyes {
+    top: -3%;
+    right: 15%;
+    position: absolute;
+  }
+}
