@@ -8,7 +8,10 @@
   flex-wrap: wrap;
   width: 100%;
 }
-
+.row-between {
+  justify-content: space-between;
+  padding: 5rem;
+}
 .col {
   width: 50%;
 }
