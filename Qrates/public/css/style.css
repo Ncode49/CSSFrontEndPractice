@@ -237,6 +237,11 @@ li + li {
   padding: 2rem;
 }
 
+.intro__left {
+  width: 40%;
+  padding: 2rem;
+}
+
 .intro__right {
   width: 60%;
   margin-top: 7rem;
@@ -249,7 +254,7 @@ li + li {
 
 .intro2__left {
   width: 60%;
-  margin-top: -10rem;
+  margin-top: -5rem;
   margin-bottom: 5rem;
   font-size: 2rem;
   border: solid 2px;
@@ -267,6 +272,19 @@ li + li {
   border-top: 2px solid;
   margin: 0;
   margin-top: -5rem;
+}
+
+.intro__topcurrent {
+  filter: invert(100%);
+  width: 2.5em;
+  position: absolute;
+  display: inline;
+  left: 2.5rem;
+  bottom: 0;
+}
+
+.intro__barriers {
+  position: relative;
 }
 
 /* section crowdfunction and sells */
