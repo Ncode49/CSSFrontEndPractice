@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+ul,
+li,
+nav {
+  padding: 0;
   margin: 0;
+}
+a {
+  text-decoration: none;
+  color: $color-black;
+}
+
+body {
+  overflow-x: hidden;
 }

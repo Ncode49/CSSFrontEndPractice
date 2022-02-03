@@ -1,0 +1,13 @@
+.ft-main {
+  display: flex;
+  flex-wrap: wrap;
+  background: $color-black;
+  color: $color-white;
+  justify-content: space-around;
+  text-align: left;
+}
+.ft-main-item a {
+  min-width: 12.5rem /*200px*/;
+  color: $color-white;
+  line-height: 2rem;
+}

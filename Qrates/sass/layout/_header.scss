@@ -9,13 +9,13 @@ ul {
   list-style-type: none;
 }
 
-li,
-a {
+.header__li a,
+.header__a {
   color: black;
   text-decoration: none;
 }
 
-li + li {
+.header__li + .header__li {
   margin-left: 15px;
 }
 
@@ -35,4 +35,5 @@ li + li {
   border-radius: 100px;
   padding: 1rem 2rem;
   margin-left: 15px;
+  text-decoration: none;
 }
