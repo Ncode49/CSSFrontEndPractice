@@ -5,14 +5,24 @@
   justify-content: flex-start;
   align-content: stretch;
   position: relative;
+  border: 1px solid;
 }
 
 .insta__img {
   width: 25%;
   display: block;
-  border: 2px solid;
+  border: 1px solid;
+  float: left;
+  flex: 1 0 auto;
+}
+.insta__img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
+.insta__a {
+}
 .insta__eyes {
   position: absolute;
   right: 5%;
@@ -21,6 +31,9 @@
   z-index: 1;
 }
 
+.insta__right {
+  display: block;
+}
 @media (max-width: 1000px) {
   .insta__img {
     width: 50%;

@@ -428,10 +428,6 @@ ul {
   flex-direction: column;
 }
 
-.artist__right {
-  display: block;
-}
-
 .artist__p {
   font-size: 1.7rem;
   font-weight: 500;
@@ -510,12 +506,21 @@ ul {
   justify-content: flex-start;
   align-content: stretch;
   position: relative;
+  border: 1px solid;
 }
 
 .insta__img {
   width: 25%;
   display: block;
-  border: 2px solid;
+  border: 1px solid;
+  float: left;
+  flex: 1 0 auto;
+}
+
+.insta__img:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
 
 .insta__eyes {
@@ -524,6 +529,10 @@ ul {
   top: -10%;
   max-width: 15%;
   z-index: 1;
+}
+
+.insta__right {
+  display: block;
 }
 
 @media (max-width: 1000px) {
