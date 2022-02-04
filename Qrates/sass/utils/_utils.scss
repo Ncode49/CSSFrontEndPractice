@@ -31,3 +31,12 @@
 .border-2 {
   border: solid 2px;
 }
+
+@media (max-width: 1000px) {
+  .border-r {
+    border-right: none;
+  }
+  .border-l {
+    border-left: none;
+  }
+}
