@@ -32,6 +32,9 @@
   border: solid 2px;
 }
 
+.block {
+  display: block;
+}
 @media (max-width: 1000px) {
   .border-r {
     border-right: none;
