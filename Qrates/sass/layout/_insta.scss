@@ -10,19 +10,14 @@
 
 .insta__img {
   width: 25%;
+  height: 25%;
   display: block;
   border: 1px solid;
   float: left;
   flex: 1 0 auto;
-}
-.insta__img:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+  overflow: hidden;
 }
 
-.insta__a {
-}
 .insta__eyes {
   position: absolute;
   right: 5%;
