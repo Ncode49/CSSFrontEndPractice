@@ -35,6 +35,10 @@
   border: solid 2px;
 }
 
+.block {
+  display: block;
+}
+
 @media (max-width: 1000px) {
   .border-r {
     border-right: none;
@@ -444,6 +448,10 @@ ul {
 
 .artist__btn {
   font-size: 2rem;
+}
+
+.artist__right {
+  display: block;
 }
 
 .two-cols__left-record {
