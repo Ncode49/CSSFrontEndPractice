@@ -12,16 +12,13 @@
 
 .two-cols__right-tabs {
   border: 2px solid;
-  align-items: center;
   margin: 2rem auto;
 }
 
 .right-tabs__black {
   background: $color-black;
   color: $color-white;
-  padding-top: 1em;
-  padding-bottom: 2em;
-  padding-left: 1.1rem;
+  padding: 1em 0 2em 1.1em;
   margin: 0;
 }
 
