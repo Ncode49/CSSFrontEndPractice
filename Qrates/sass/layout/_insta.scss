@@ -4,15 +4,12 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: stretch;
-  padding: 0;
   position: relative;
 }
 
 .insta__img {
   width: 25%;
   display: block;
-  float: left;
-  flex: 0 0 auto;
   border: 2px solid;
 }
 

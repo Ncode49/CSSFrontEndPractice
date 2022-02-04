@@ -428,6 +428,10 @@ ul {
   flex-direction: column;
 }
 
+.artist__right {
+  display: block;
+}
+
 .artist__p {
   font-size: 1.7rem;
   font-weight: 500;
@@ -505,15 +509,12 @@ ul {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-content: stretch;
-  padding: 0;
   position: relative;
 }
 
 .insta__img {
   width: 25%;
   display: block;
-  float: left;
-  flex: 0 0 auto;
   border: 2px solid;
 }
 
@@ -539,6 +540,7 @@ ul {
 .banner {
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px solid;
 }
 
 .banner a {
