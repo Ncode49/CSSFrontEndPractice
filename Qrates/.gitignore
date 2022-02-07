@@ -2,3 +2,5 @@
 package-lock.json
 /Qrates/.gitignore
 
+/nintendo/img
+/nintendo/svg
