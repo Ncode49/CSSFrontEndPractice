@@ -11,20 +11,28 @@
 </head>
 
 <body>
-  <header>
-    <a href="#"><img class="w-36" src="./img/nintendo.png" alt="nintendo" /></a>
-    <img src="./img/headersearch.svg" alt="search log" />
-    <input type="text" placeholder="Search games, systems, support, etc." />
+  <header class="flex items-center justify-between">
+    <div class="flex">
+      <a href="#"><img class="w-36" src="./img/nintendo.png" alt="nintendo" /></a>
+      <div class="flex items-center ml-7">
+        <img src="./img/headersearch.svg" alt="search log" />
+        <input type="text" placeholder="Search" />
+      </div>
+
+    </div>
+
+
+
     <nav>
-      <ul>
+      <ul class="flex items-center gap-3">
         <li>
-          <a href="#"><img class="w-5 h-5" src="./img/headersupport.svg" alt="support icon" />Support</a>
+          <a href="#"><img class="w-5 h-5 float-left" src="./img/headersupport.svg" alt="support icon" />Support</a>
         </li>
         <li>
-          <a href="#"><img class="w-5 h-5" src="./img/headerwl.svg" alt="heart icon" />Wish List</a>
+          <a href="#"><img class="float-left w-5 h-5" src="./img/headerwl.svg" alt="heart icon" />Wish List</a>
         </li>
         <li>
-          <a href="#"><img w-5 h-5 src="./img/headerloginsignin.svg" alt="user icon" />Log in /
+          <a href="#"><img class="float-left w-5 h-5" src="./img/headerloginsignin.svg" alt="user icon" />Log in /
             Sign in</a>
         </li>
       </ul>
