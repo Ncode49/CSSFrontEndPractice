@@ -270,7 +270,7 @@
                 class="float-left"
                 src="./img/infoplayer.svg"
                 alt="Player icon"
-              ><span class="ml-4 mr-6">Players:<span>
+              /><span class="ml-4 mr-6">Players:</span>
             </dt>
             <dd class="font-light">up to 4 players</dd>
           </div>
@@ -315,62 +315,79 @@
             </dt>
             <dd class="font-light">1.5 GB</dd>
           </div>
-          <div class="p-3 pl-4 flex items-baseline bg-[#efefef]">
+          <div class="p-3 pl-4 flex bg-[#efefef]">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
                 src="./img/infoconcern.svg"
                 alt="world icon"
               />
-             <span class="ml-5 mr-6">Supported Language:</span> 
+              <span class="ml-5">Supported Language:</span>
             </dt>
-            <dd class="font-light">
-               French, German, Italian, Spanish, Korean, Portuguese, Russian,
+            <dd class="ml-6 font-light">
+              French, German, Italian, Spanish, Korean, Portuguese, Russian,
               Chinese, English
             </dd>
           </div>
-          <div>
-            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+          <div class="my-4 p-4 bg-[#efefef]">
+            <dt
+              class="pl-14 pb-4 tracking-wider text-2xl font-medium text-[#484848]"
+            >
               Supported Play Modes:
             </dt>
-            <dd class="font-light">
-              <img
-                src="./img/tv.svg"
-                alt="television"
-                width="20"
-                height="20"
-              />TV Mode
-              <img
-                src="./img/tabletop.svg"
-                alt="desktop"
-                width="20"
-                height="20"
-              />Tabletop mode
-              <img
-                src="./img/handheld.svg"
-                alt="handleheld"
-                width="20"
-                height="20"
-              />
-              Handhels mode
-              <p>
+
+            <dd class="pl-8 font-light">
+              <div class="flex items-baseline justify-between">
+                <div class="flex flex-col items-center">
+                  <img src="./img/tv.svg" alt="television" width="70" /><span
+                    class="pt-3"
+                    >TV Mode</span
+                  >
+                </div>
+                <div class="flex flex-col items-center">
+                  <img src="./img/tabletop.svg" alt="desktop" width="60" /><span
+                    class="pt-3"
+                    >Tabletop mode</span
+                  >
+                </div>
+                <div class="flex flex-col items-center">
+                  <img
+                    src="./img/handleheld.svg"
+                    alt="handleheld"
+                    width="65"
+                  /><span class="pt-3"> Handhels mode</span>
+                </div>
+              </div>
+
+              <p class="text-sm pt-3">
                 Software compatibility and play experience may differ on
                 Nintendo Switch Lite. Additional accessories may be required
-                (sold separately). See support for details.
+                (sold separately).See
+                <a href="#" class="text-[#e60012] underline"> support </a>for
+                details.
               </p>
             </dd>
           </div>
-          <div>
-            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+          <div class="p-4 my-4 bg-[#efefef]">
+            <dt
+              class="tracking-wider text-2xl font-medium text-[#484848] mb-10"
+            >
               ESRB Rating:
             </dt>
-            <dd class="font-light">
-              <a href="#"
-                ><img src="./img/esrbimg.svg" alt="esrb logo" />
-                <p>
-                  Simulated Gambling, Use of Alcohol, Fantasy Violence, Use of
-                  Tobacco, Mild Blood, Mild Language <br />Users Interact
-                </p>
+            <dd>
+              <a class="font-light flex w-64 gap-2" href="#"
+                ><img
+                  class="shrink-0 w-14"
+                  src="./img/esrbimg.svg"
+                  alt="esrb logo"
+                />
+                <div class="flex flex-col text-sm">
+                  <p class="border-b-2 pb-2 border-[#5f5a5a]">
+                    Simulated Gambling, Use of Alcohol, Fantasy Violence, Use of
+                    Tobacco, Mild Blood, Mild Language
+                  </p>
+                  <p class="pt-2">Users Interact</p>
+                </div>
               </a>
             </dd>
           </div>
@@ -410,7 +427,9 @@
           Nintendo Switch Online membership (sold separately) and Nintendo
           Account required for online play. Not available in all countries.
           Internet access required for online features. Terms apply.
-          <a href="#">nintendo.com/switch-online</a>
+          <a class="text-[#e60012] underline" href="#"
+            >nintendo.com/switch-online</a
+          >
           Stardew Valley © ConcernedApe LLC 2016-2020. All rights reserved.
         </p>
       </section>
