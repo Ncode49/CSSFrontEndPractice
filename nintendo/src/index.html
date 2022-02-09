@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <header class="flex items-center justify-between">
+    <header class="flex items-center justify-between border-b">
       <div class="flex">
         <a href="#"
           ><img class="w-36" src="./img/nintendo.png" alt="nintendo"
@@ -65,98 +65,149 @@
             >
           </li>
         </ul>
+        <!-- hamburger button navigation-->
         <button class="ml-4 mr-6 md:hidden">
           <img class="w-6 h-8" src="./img/Hamburger_icon.png" />
         </button>
       </nav>
     </header>
     <main>
-      <section>
-        <!-- hero section-->
-        <div>
+      <!-- hero section image is it a div or a section ? because there are no heading-->
+      <!-- blue background color-->
+      <div class="bg-[#d6f0fa] md:pt-6 mb-5">
+        <div class="md:relative md:w-[calc(100%-2rem)] mx-auto w-full">
           <img src="./img/hero.jpeg" alt="hero image" />
-          <img src="./img/esrbimg.svg" alt="erbm image" />
+          <img
+            class="absolute w-14 bottom-6 right-6 md:block hidden"
+            src="./img/esrbimg.svg"
+            alt="erbm image"
+          />
         </div>
-        <h1>Stardew Valley</h1>
-        <p>Available now</p>
-        <button>
-          <img src="./img/headerwl.svg" alt="heart icon" />Add to Wish List
+      </div>
+      <section class="mx-4">
+        <!-- hero section details -->
+        <p
+          class="inline-block font-extralight text-sm border-b-2 pb-1 border-[#e60012]"
+        >
+          Nintendo Switch
+        </p>
+        <h1 class="text-2xl font-medium text-[#484848]">Stardew Valley</h1>
+        <p class="inline-block font-extralight text-sm">Available now</p>
+        <button class="flex gap-2">
+          <img src="./img/headerwl.svg" alt="heart icon" /><span
+            class="font-medium text-[#e60012]"
+            >Add to Wish List</span
+          >
         </button>
-        <h2>$14.99</h2>
-        <a href="#"
-          >But digital<img src="./img/arrow.svg" alt="arrow right"
+        <h2 class="text-2xl font-medium text-[#484848]">$14.99</h2>
+        <a
+          class="flex md:max-w-[15rem] bg-[#e60012] text-white p-4 text-xl justify-between rounded-md"
+          href="#"
+          ><span>But digital</span><img src="./img/arrow.svg" alt="arrow right"
         /></a>
-        <img src="./img/gold-points.png" alt="gold coin" />
-        <a href="#">Eligible for up to 75 points</a>
+        <div class="flex items-center gap-2">
+          <img src="./img/gold-points.png" alt="gold coin" />
+          <a class="font-extralight text-sm" href="#"
+            >Eligible for up to 75 points</a
+          >
+        </div>
       </section>
 
       <!-- carrousel sections-->
-      <div>
+      <div class="bg-[#d6f0fa] p-5">
         <!-- images game sections-->
         <!-- first frame-->
-        <div>
-          <img src="./img/carrouselimg1.avif" alt="image game" />
-          <img src="./img/carrouselimg2.avif" alt="image game" />
-          <img src="./img/carrouselimg3.avif" alt="image game" />
-          <img src="./img/carrouselimg4.avif" alt="image game" />
-          <img src="./img/carrouselimg5.jpg" alt="image game" />
+        <div
+          class="grid grid-col-2 grid-row-4 md:grid-cols-4 md:grid-rows-2 gap-2"
+        >
+          <img
+            class="w-full row-span-2 col-span-2 border border-black"
+            src="./img/carrouselimg1.avif"
+            alt="image game"
+          />
+          <img
+            class="w-full border border-black"
+            src="./img/carrouselimg2.avif"
+            alt="image game"
+          />
+          <img
+            class="w-full border border-black"
+            src="./img/carrouselimg3.avif"
+            alt="image game"
+          />
+          <img
+            class="w-full border border-black"
+            src="./img/carrouselimg4.avif"
+            alt="image game"
+          />
+          <img
+            class="w-full border border-black"
+            src="./img/carrouselimg5.jpg"
+            alt="image game"
+          />
         </div>
         <!-- second frame-->
-        <div>
-          <img src="./img/carrouselimg6.avif" alt="image game" />
+        <div class="grid grid-cols-4 grid-rows-2 gap-2">
+          <img
+            class="row-span-2 col-span-2 hidden"
+            src="./img/carrouselimg6.avif"
+            alt="image game"
+          />
         </div>
         <!-- nav button section in the carousel-->
-        <!-- left arrow-->
-        <button type="button">
-          <img src="./img/buttonright.svg" alt="buttonleft" />
-        </button>
-        <!-- Two box-->
-        <button type="button">
-          <svg class="icon-dot" width="18" height="18" viewBox="0 0 18 18">
-            <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
-              <circle
-                class="dot"
-                fill="currentColor"
-                cx="8"
-                cy="8"
-                r="5"
-              ></circle>
-              <circle
-                class="ring"
-                stroke="currentColor"
-                stroke-width="2"
-                cx="8"
-                cy="8"
-                r="8"
-              ></circle>
-            </g>
-          </svg>
-        </button>
-        <button type="button">
-          <svg class="icon-dot" width="18" height="18" viewBox="0 0 18 18">
-            <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
-              <circle
-                class="dot"
-                fill="currentColor"
-                cx="8"
-                cy="8"
-                r="5"
-              ></circle>
-              <circle
-                class="ring"
-                stroke="currentColor"
-                stroke-width="2"
-                cx="8"
-                cy="8"
-                r="8"
-              ></circle>
-            </g>
-          </svg>
-        </button>
-        <!-- right arrow-->
-        <button type="button">
-          <img src="./img/buttonright.svg" alt="buttonright" />
-        </button>
+        <div class="flex justify-center gap-5 mt-5">
+          <!-- left arrow-->
+          <button class="hidden md:block" type="button">
+            <img src="./img/buttonright.svg" alt="buttonleft" />
+          </button>
+          <!-- Two box-->
+          <button type="button">
+            <svg class="icon-dot" width="18" height="18" viewBox="0 0 18 18">
+              <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+                <circle
+                  class="dot"
+                  fill="currentColor"
+                  cx="8"
+                  cy="8"
+                  r="5"
+                ></circle>
+                <circle
+                  class="ring"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  cx="8"
+                  cy="8"
+                  r="8"
+                ></circle>
+              </g>
+            </svg>
+          </button>
+          <button type="button">
+            <svg class="icon-dot" width="18" height="18" viewBox="0 0 18 18">
+              <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+                <circle
+                  class="dot"
+                  fill="currentColor"
+                  cx="8"
+                  cy="8"
+                  r="5"
+                ></circle>
+                <circle
+                  class="ring"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  cx="8"
+                  cy="8"
+                  r="8"
+                ></circle>
+              </g>
+            </svg>
+          </button>
+          <!-- right arrow-->
+          <button class="hidden md:block" type="button">
+            <img src="./img/buttonright.svg" alt="buttonright" />
+          </button>
+        </div>
       </div>
 
       <!-- description section-->
