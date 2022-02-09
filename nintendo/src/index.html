@@ -67,7 +67,11 @@
         </ul>
         <!-- hamburger button navigation-->
         <button class="ml-4 mr-6 md:hidden">
-          <img class="w-6 h-8" src="./img/Hamburger_icon.png" />
+          <img
+            class="w-6 h-8"
+            src="./img/Hamburger_icon.png"
+            alt="hamburgur nav"
+          />
         </button>
       </nav>
     </header>
@@ -91,7 +95,9 @@
         >
           Nintendo Switch
         </p>
-        <h1 class="text-2xl font-medium text-[#484848]">Stardew Valley</h1>
+        <h1 class="tracking-wider text-2xl font-medium text-[#484848]">
+          Stardew Valley
+        </h1>
         <p class="inline-block font-extralight text-sm">Available now</p>
         <button class="flex gap-2">
           <img src="./img/headerwl.svg" alt="heart icon" /><span
@@ -99,7 +105,9 @@
             >Add to Wish List</span
           >
         </button>
-        <h2 class="text-2xl font-medium text-[#484848]">$14.99</h2>
+        <h2 class="tracking-wider text-2xl font-medium text-[#484848]">
+          $14.99
+        </h2>
         <a
           class="flex md:max-w-[15rem] bg-[#e60012] text-white p-4 text-xl justify-between rounded-md"
           href="#"
@@ -114,7 +122,7 @@
       </section>
 
       <!-- carrousel sections-->
-      <div class="bg-[#d6f0fa] p-5">
+      <div class="bg-[#d6f0fa] p-5 md:my-20">
         <!-- images game sections-->
         <!-- first frame-->
         <div
@@ -211,9 +219,11 @@
       </div>
 
       <!-- description section-->
-      <section>
-        <h2>You're moving to the valley...</h2>
-        <p>
+      <section class="my-24 mx-4">
+        <h2 class="tracking-wider text-2xl font-medium text-[#484848]">
+          You're moving to the valley...
+        </h2>
+        <p class="mt-4 font-extralight">
           You’ve inherited your grandfather’s old farm plot in Stardew Valley.
           Armed with hand-me-down tools and a few coins, you set out to begin
           your new life. Can you learn to live off the land and turn these
@@ -224,14 +234,16 @@
           opportunity. With a little dedication, you might just be the one to
           restore Stardew Valley to greatness!
         </p>
-        <p>
+        <p class="my-6 font-extralight">
           Now with Multiplayer! Invite 1-3 players to join you in the valley!
           Players can work together to build a thriving farm, share resources,
           and build relationships with townspeople or each other. As more hands
           are better than one, players have the option to scale profit margin on
           produce sold for a more challenging experience.
         </p>
-        <a href="#"
+        <a
+          class="text-xl flex max-w-[390px] font-medium bg-[#e60012] p-4 rounded-md text-white"
+          href="#"
           >Explore this game's official site<img
             src="./img/arrow.svg"
             alt="arrow right"
@@ -239,74 +251,129 @@
       </section>
 
       <!-- game characteristics section list of description-->
-      <section>
+      <section class="mx-4">
         <dl>
-          <dt>
-            <img src="./img/inforeleasedate.svg" alt="calender icon" /> Release
-            date:
-          </dt>
-          <dd>October 05, 2017</dd>
-          <dt><img src="./img/infoplayer.svg" alt="Player icon" />Players:</dt>
-          <dd>up to 4 players</dd>
-          <dt><img src="./img/infogenre.svg" alt="genre icon" />Genre:</dt>
-          <dd>Indie, Simulation, Role-Playing</dd>
-          <dt>
-            <img
-              src="./img/infopublisher.svg"
-              alt="arrow joystick "
-            />Publisher:
-          </dt>
-          <dd>ConcernedApe</dd>
-          <dt>
-            <img src="./img/infodeveloper.svg" alt="dev wire:" />Developer:
-          </dt>
-          <dd>ConcernedApe</dd>
-          <dt>
-            <img src="./img/infosize.svg" alt="bdd icon" />Game file size:
-          </dt>
-          <dd>1.5 GB</dd>
-          <dt>
-            <img src="./img/infoconcern.svg" alt="world icon" /> Supported
-            Language
-          </dt>
-          <dd>
-            French, German, Italian, Spanish, Korean, Portuguese, Russian,
-            Chinese, English
-          </dd>
-          <dt>Supported Play Modes:</dt>
-          <dd>
-            <img src="./img/tv.svg" alt="television" width="20" height="20" />TV
-            Mode
-            <img
-              src="./img/tabletop.svg"
-              alt="desktop"
-              width="20"
-              height="20"
-            />Tabletop mode
-            <img
-              src="./img/handheld.svg"
-              alt="handleheld"
-              width="20"
-              height="20"
-            />
-            Handhels mode
-            <p>
-              Software compatibility and play experience may differ on Nintendo
-              Switch Lite. Additional accessories may be required (sold
-              separately). See support for details.
-            </p>
-          </dd>
+          <div class="p-3 flex items-baseline bg-[#efefef]">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/inforeleasedate.svg"
+                alt="calender icon"
+              />
+              <span class="ml-4 mr-6">Release date:</span>
+            </dt>
+            <dd class="font-light">October 05, 2017</dd>
+          </div>
+          <div class="p-3 flex items-baseline">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infoplayer.svg"
+                alt="Player icon"
+              ><span class="ml-4 mr-6">Players:<span>
+            </dt>
+            <dd class="font-light">up to 4 players</dd>
+          </div>
+          <div class="p-3 flex items-baseline bg-[#efefef]">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infogenre.svg"
+                alt="genre icon"
+              /><span class="ml-4 mr-6">Genre:</span>
+            </dt>
+            <dd class="font-light">Indie, Simulation, Role-Playing</dd>
+          </div>
+          <div class="p-3 pl-4 flex items-baseline">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infopublisher.svg"
+                alt="arrow joystick "
+              /><span class="ml-5 mr-6">Publisher:</span>
+            </dt>
+            <dd class="font-light">ConcernedApe</dd>
+          </div>
 
-          <dt>ESRB Rating:</dt>
-          <dd>
-            <a href="#"
-              ><img src="./img/esrbimg.svg" alt="esrb logo" />
+          <div class="p-3 flex items-baseline bg-[#efefef]">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infodeveloper.svg"
+                alt="dev wire:"
+              /><span class="ml-5 mr-6">Developer:</span>
+            </dt>
+            <dd class="font-light">ConcernedApe</dd>
+          </div>
+          <div class="p-3 flex items-baseline">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infosize.svg"
+                alt="bdd icon"
+              /><span class="ml-5 mr-6">Game file size:</span>
+            </dt>
+            <dd class="font-light">1.5 GB</dd>
+          </div>
+          <div class="p-3 pl-4 flex items-baseline bg-[#efefef]">
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              <img
+                class="float-left"
+                src="./img/infoconcern.svg"
+                alt="world icon"
+              />
+             <span class="ml-5 mr-6">Supported Language:</span> 
+            </dt>
+            <dd class="font-light">
+               French, German, Italian, Spanish, Korean, Portuguese, Russian,
+              Chinese, English
+            </dd>
+          </div>
+          <div>
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              Supported Play Modes:
+            </dt>
+            <dd class="font-light">
+              <img
+                src="./img/tv.svg"
+                alt="television"
+                width="20"
+                height="20"
+              />TV Mode
+              <img
+                src="./img/tabletop.svg"
+                alt="desktop"
+                width="20"
+                height="20"
+              />Tabletop mode
+              <img
+                src="./img/handheld.svg"
+                alt="handleheld"
+                width="20"
+                height="20"
+              />
+              Handhels mode
               <p>
-                Simulated Gambling, Use of Alcohol, Fantasy Violence, Use of
-                Tobacco, Mild Blood, Mild Language <br />Users Interact
+                Software compatibility and play experience may differ on
+                Nintendo Switch Lite. Additional accessories may be required
+                (sold separately). See support for details.
               </p>
-            </a>
-          </dd>
+            </dd>
+          </div>
+          <div>
+            <dt class="tracking-wider text-2xl font-medium text-[#484848]">
+              ESRB Rating:
+            </dt>
+            <dd class="font-light">
+              <a href="#"
+                ><img src="./img/esrbimg.svg" alt="esrb logo" />
+                <p>
+                  Simulated Gambling, Use of Alcohol, Fantasy Violence, Use of
+                  Tobacco, Mild Blood, Mild Language <br />Users Interact
+                </p>
+              </a>
+            </dd>
+          </div>
         </dl>
 
         <div>
@@ -315,18 +382,31 @@
             Play online, access classic Super NES™ games, and more with a
             Nintendo Switch Online membership.
           </p>
-          <a href="#"
-            >Learn more<img src="./img/arrow.svg" alt="arrow right"
+          <a
+            class="flex gap-3 tracking-wider text-2xl font-medium text-[#484848]"
+            href="#"
+            ><span>Learn more</span
+            ><img src="./img/arrow.svg" alt="arrow right"
           /></a>
           <div>
-            <h2>This game supports:</h2>
-            <a href="#">Online Play</a>
-            <a href="#">Save Data Cloud</a>
+            <h2 class="tracking-wider text-2xl font-medium text-[#484848]">
+              This game supports:
+            </h2>
+            <a
+              class="inline-block bg-[#e60012] p-4 rounded-md text-white"
+              href="#"
+              >Online Play</a
+            >
+            <a
+              class="inline-block bg-[#e60012] p-4 rounded-md text-white"
+              href="#"
+              >Save Data Cloud</a
+            >
           </div>
         </div>
         <!-- lame bottom-->
 
-        <p>
+        <p class="text-sm">
           Nintendo Switch Online membership (sold separately) and Nintendo
           Account required for online play. Not available in all countries.
           Internet access required for online features. Terms apply.
