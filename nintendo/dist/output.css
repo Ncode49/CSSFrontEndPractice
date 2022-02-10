@@ -728,6 +728,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.75rem;
 }
 
+.max-w-\[1080px\]{
+  max-width: 1080px;
+}
+
 .max-w-\[1185px\]{
   max-width: 1185px;
 }
@@ -1107,6 +1111,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1115px){
+  .desktop\:-right-6{
+    right: -1.5rem;
+  }
+
   .desktop\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -1117,6 +1125,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   .desktopplus\:mx-auto{
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (min-width: 1260px){
+  .heroimg\:-right-6{
+    right: -1.5rem;
+  }
+
+  .heroimg\:-right-10{
+    right: -2.5rem;
+  }
+
+  .heroimg\:-right-16{
+    right: -4rem;
+  }
+
+  .heroimg\:-right-\[70px\]{
+    right: -70px;
   }
 }
 
