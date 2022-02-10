@@ -728,16 +728,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 0.75rem;
 }
 
+.max-w-\[1185px\]{
+  max-width: 1185px;
+}
+
+.max-w-\[1115px\]{
+  max-width: 1115px;
+}
+
 .max-w-\[200px\]{
   max-width: 200px;
 }
 
 .max-w-xs{
   max-width: 20rem;
-}
-
-.max-w-\[1115px\]{
-  max-width: 1115px;
 }
 
 .shrink-0{
@@ -1042,7 +1046,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
-@media (min-width: 960px){
+@media (min-width: 745px){
   .md\:relative{
     position: relative;
   }
@@ -1102,6 +1106,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 1115px){
+  .desktop\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1230px){
+  .desktopplus\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media (min-width: 1440px){
   .lg\:m-0{
     margin: 0px;
@@ -1135,16 +1153,5 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:tracking-wider{
     letter-spacing: 0.05em;
-  }
-}
-
-@media (min-width: 1115px){
-  .desktop\:mx-auto{
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .desktop\:max-w-\[1185px\]{
-    max-width: 1185px;
   }
 }
