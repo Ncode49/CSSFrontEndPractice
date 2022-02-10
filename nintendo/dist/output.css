@@ -530,6 +530,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-column: span 2 / span 2;
 }
 
+.col-auto{
+  grid-column: auto;
+}
+
 .row-span-2{
   grid-row: span 2 / span 2;
 }
@@ -588,6 +592,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .my-10{
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .ml-7{
@@ -678,8 +687,52 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.25rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.ml-3{
+  margin-left: 0.75rem;
+}
+
+.mr-3{
+  margin-right: 0.75rem;
+}
+
+.mt-1{
+  margin-top: 0.25rem;
+}
+
+.mt-\[1\.5rem\]{
+  margin-top: 1.5rem;
+}
+
+.mt-\[2px\]{
+  margin-top: 2px;
+}
+
+.mt-\[6px\]{
+  margin-top: 6px;
+}
+
+.mt-7{
+  margin-top: 1.75rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
+}
+
+.mt-\[4px\]{
+  margin-top: 4px;
+}
+
 .inline-block{
   display: inline-block;
+}
+
+.inline{
+  display: inline;
 }
 
 .flex{
@@ -706,6 +759,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1rem;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
+.h-3{
+  height: 0.75rem;
+}
+
 .w-36{
   width: 9rem;
 }
@@ -730,6 +791,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 16rem;
 }
 
+.w-3{
+  width: 0.75rem;
+}
+
+.w-4{
+  width: 1rem;
+}
+
 .max-w-\[390px\]{
   max-width: 390px;
 }
@@ -742,8 +811,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 20rem;
 }
 
+.max-w-sm{
+  max-width: 24rem;
+}
+
+.max-w-\[200px\]{
+  max-width: 200px;
+}
+
 .shrink-0{
   flex-shrink: 0;
+}
+
+.grow-0{
+  flex-grow: 0;
 }
 
 .transform{
@@ -762,8 +843,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-\[20\%_40\%_40\%\]{
+  grid-template-columns: 20% 40% 40%;
+}
+
+.grid-cols-\[20fr_40fr_40fr\]{
+  grid-template-columns: 20fr 40fr 40fr;
+}
+
 .grid-rows-2{
   grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-3{
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -776,6 +869,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .flex-wrap{
   flex-wrap: wrap;
+}
+
+.items-end{
+  align-items: flex-end;
 }
 
 .items-center{
@@ -816,6 +913,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-7{
   gap: 1.75rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-9{
+  gap: 2.25rem;
+}
+
+.self-start{
+  align-self: flex-start;
+}
+
+.self-end{
+  align-self: flex-end;
+}
+
+.self-center{
+  align-self: center;
+}
+
+.overflow-visible{
+  overflow: visible;
 }
 
 .rounded-md{
@@ -918,6 +1039,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2rem;
 }
 
+.p-6{
+  padding: 1.5rem;
+}
+
 .pb-1{
   padding-bottom: 0.25rem;
 }
@@ -995,6 +1120,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-light{
   font-weight: 300;
 }
@@ -1009,6 +1139,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-bold{
   font-weight: 700;
+}
+
+.font-semibold{
+  font-weight: 600;
 }
 
 .tracking-wider{
@@ -1061,13 +1195,42 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: relative;
   }
 
+  .md\:m-0{
+    margin: 0px;
+  }
+
   .md\:my-20{
     margin-top: 5rem;
     margin-bottom: 5rem;
   }
 
+  .md\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .md\:mt-2{
+    margin-top: 0.5rem;
+  }
+
+  .md\:mt-1{
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
+  .md\:mt-3{
+    margin-top: 0.75rem;
+  }
+
   .md\:block{
     display: block;
+  }
+
+  .md\:flex{
+    display: flex;
   }
 
   .md\:grid{
@@ -1078,8 +1241,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
+  .md\:h-5{
+    height: 1.25rem;
+  }
+
   .md\:w-\[calc\(100\%-2rem\)\]{
     width: calc(100% - 2rem);
+  }
+
+  .md\:w-5{
+    width: 1.25rem;
+  }
+
+  .md\:w-\[15rem\]{
+    width: 15rem;
+  }
+
+  .md\:min-w-full{
+    min-width: 100%;
   }
 
   .md\:max-w-\[15rem\]{
@@ -1109,5 +1288,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:pl-12{
     padding-left: 3rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:tracking-wider{
+    letter-spacing: 0.05em;
   }
 }
