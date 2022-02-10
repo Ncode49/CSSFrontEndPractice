@@ -250,10 +250,10 @@
         /></a>
       </section>
 
-      <!-- game characteristics section list of description-->
-      <section class="mx-4 border-b border-grey">
-        <dl>
-          <div class="p-3 flex items-baseline bg-[#efefef]">
+      <!-- game characteristics section list of description is it a section or a div because no hi-->
+      <div class="mx-4 border-b border-grey">
+        <dl class="md:grid grid-rows-8 grid-cols-2 md:gap-x-4">
+          <div class="order-1 p-3 flex items-baseline bg-[#efefef]">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
@@ -264,7 +264,7 @@
             </dt>
             <dd class="font-light">October 05, 2017</dd>
           </div>
-          <div class="p-3 flex items-baseline">
+          <div class="order-3 p-3 flex items-baseline">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
@@ -274,7 +274,7 @@
             </dt>
             <dd class="font-light">up to 4 players</dd>
           </div>
-          <div class="p-3 flex items-baseline bg-[#efefef]">
+          <div class="order-5 p-3 flex items-baseline bg-[#efefef]">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
@@ -284,7 +284,7 @@
             </dt>
             <dd class="font-light">Indie, Simulation, Role-Playing</dd>
           </div>
-          <div class="p-3 pl-4 flex items-baseline">
+          <div class="order-7 p-3 pl-4 flex items-baseline">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
@@ -295,7 +295,7 @@
             <dd class="font-light">ConcernedApe</dd>
           </div>
 
-          <div class="p-3 flex items-baseline bg-[#efefef]">
+          <div class="order-2 p-3 flex items-baseline bg-[#efefef]">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
@@ -305,31 +305,31 @@
             </dt>
             <dd class="font-light">ConcernedApe</dd>
           </div>
-          <div class="p-3 flex items-baseline">
+          <div class="order-4 p-3 flex items-baseline">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
-                src="./img/infosize.svg"
+                src="./img/infofilesize.svg"
                 alt="bdd icon"
               /><span class="ml-5 mr-6">Game file size:</span>
             </dt>
             <dd class="font-light">1.5 GB</dd>
           </div>
-          <div class="p-3 pl-4 flex bg-[#efefef]">
+          <div class="order-6 row-span-2 p-3 pl-4 flex bg-[#efefef]">
             <dt class="tracking-wider text-2xl font-medium text-[#484848]">
               <img
                 class="float-left"
                 src="./img/infoconcern.svg"
                 alt="world icon"
               />
-              <span class="ml-5">Supported Language:</span>
+              <span class="ml-5">Supported Languages:</span>
             </dt>
             <dd class="ml-6 font-light">
-              French, German, Italian, Spanish, Korean, Portuguese, Russian,
-              Chinese, English
+              Japanese French, German, Italian, Spanish, Korean, Portuguese,
+              Russian, Chinese, English
             </dd>
           </div>
-          <div class="my-4 p-4 bg-[#efefef]">
+          <div class="order-8 row-span-4 my-4 p-4 bg-[#efefef]">
             <dt
               class="pl-14 pb-4 tracking-wider text-2xl font-medium text-[#484848]"
             >
@@ -368,7 +368,7 @@
               </p>
             </dd>
           </div>
-          <div class="p-4 my-4 bg-[#efefef]">
+          <div class="row-span-4 order-9 p-4 md:pl-12 my-4 bg-[#efefef]">
             <dt
               class="tracking-wider text-2xl font-medium text-[#484848] mb-10"
             >
@@ -393,7 +393,7 @@
           </div>
         </dl>
 
-        <section class="bg-[#efefef]">
+        <section class="bg-[#efefef] p-4">
           <img src="./img/NintendoSwitchOnline.svg" alt="nintendo switch" />
           <p>
             Play online, access classic Super NES™ games, and more with a
@@ -434,25 +434,51 @@
         <p class="text-xs mt-4 pb-36">
           Stardew Valley © ConcernedApe LLC 2016-2020. All rights reserved.
         </p>
-      </section>
+      </div>
 
-      <section class="mx-4">
-        <h2 class="tracking-wider text-2xl font-medium text-[#484848] mt-20">
+      <section class="mx-4 mt-20">
+        <h2 class="tracking-wider text-2xl font-medium mb-9 text-[#484848]">
           Your recently viewed items
         </h2>
-        <!-- Card-->
-        <ul>
-          <li class="flex flex-col">
-            <img src="./img/viewimg1.avif" alt="image game" />
-            <p>10/05/17</p>
+        <!-- Cards-->
+        <div class="flex gap-4 justify-center mt-10 mb-4">
+          <article class="flex flex-col gap-4 max-w-xs">
+            <img
+              class="rounded-md"
+              src="./img/viewimg1.avif"
+              alt="image game"
+            />
+            <p class="font-extralight">10/05/17</p>
             <h3 class="text-[#484848] text-xl">Stardew Valley</h3>
             <p class="text-[#484848] text-xl">$14.99</p>
-            <div class="flex">
-              <span>Nintendo Switch</span>
+            <div class="flex justify-between items-center">
+              <p
+                class="inline-block font-extralight text-sm border-b-2 pb-1 border-[#e60012]"
+              >
+                Nintendo Switch
+              </p>
               <img src="./img/headerwl.svg" alt="heart logo" />
             </div>
-          </li>
-        </ul>
+          </article>
+          <article class="flex flex-col gap-4 max-w-xs">
+            <img
+              class="rounded-md"
+              src="./img/viewimg1.avif"
+              alt="image game"
+            />
+            <p class="font-extralight">10/05/17</p>
+            <h3 class="text-[#484848] text-xl">Stardew Valley</h3>
+            <p class="text-[#484848] text-xl">$14.99</p>
+            <div class="flex justify-between items-center">
+              <p
+                class="inline-block font-extralight text-sm border-b-2 pb-1 border-[#e60012]"
+              >
+                Nintendo Switch
+              </p>
+              <img src="./img/headerwl.svg" alt="heart logo" />
+            </div>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
