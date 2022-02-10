@@ -1060,6 +1060,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 5rem;
   }
 
+  .md\:-mb-6{
+    margin-bottom: -1.5rem;
+  }
+
   .md\:block{
     display: block;
   }
